@@ -98,14 +98,12 @@ catch(error)
 });
 
 
-// to connect with database 
-//  mongoose
-// .connect{
-      
-// }
-// .then(()=>{
-//    console.log("connected to DB");
-// })
+connect(
+      "mongodb+srv://Aditi123_Gupta:PhPwxP59HKhE2G7G@cluster0.7da7d.mongodb.net/"
+)
+.then(()=>{
+   console.log("connected to DB");
+})
 
 
 
